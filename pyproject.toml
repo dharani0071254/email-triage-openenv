@@ -5,8 +5,12 @@ description = "OpenEnv email triage environment"
 requires-python = ">=3.10"
 
 dependencies = [
-    "pydantic",
+    "pydantic>=2.0.0",
     "fastapi",
     "uvicorn",
-    "openai"
+    "openai",
+    "openenv-core>=0.2.0"
 ]
+
+[project.scripts]
+server = "server:app"
