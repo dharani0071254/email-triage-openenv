@@ -1,0 +1,12 @@
+name: email-triage-openenv
+description: AI email assistant environment
+version: 1.0
+
+observation: Observation
+action: Action
+reward: Reward
+
+tasks:
+  - easy
+  - medium
+  - hard
